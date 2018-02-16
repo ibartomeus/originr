@@ -1,0 +1,36 @@
+---
+title: "Originr: an R package to fetch species origin data from the web"
+author: "I. Bartomeus, N. Perez-Fernandez, S. Chamberlain"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#MEE abstract (250 words in 4 points) + max 3000 words.
+```
+
+#Abstract
+
+Exotic species are a worldwide phenomenon. Identifying which species are not native in a community is far from trivial. Here we present a set of tools to check which species are exotic in a given dataset. While some datsets are black lists, i.e. a list of recorded exotic species, and inclomplete by definition we recomend to use a . Data coverage is unequal, with plants being well covered
+
+
+#Intro
+
+#Databases available
+
+Get species origin data (whether species is native/invasive) from the
+    following sources on the web: Encyclopedia of Life (<http://eol.org>), Flora
+    'Europaea' (<http://rbg-web2.rbge.org.uk/FE/fe.html>), Global Invasive Species
+    Database (<http://www.iucngisd.org/gisd>), the Native Species Resolver
+    (<http://bien.nceas.ucsb.edu/bien/tools/nsr/nsr-ws/>), and Integrated Taxonomic
+    Information Service (<http://www.itis.gov/>).
+    
+#Data quality
+
+#Example: FIA, BBB & BMS?
+
+#Availability
+
+The current stable version of the package requires r 3.3.0 and can be downloaded from CRAN (https://cran.r-project.org/web/packages/BIOMASS/) or installed directly in r with install.package(“BIOMASS”). A vignette (i.e. a tutorial) is available for this package (https://cran.r-project.org/web/packages/BIOMASS/vignettes/VignetteBiomass.html). BIOMASS depends on five existing R packages: (i) raster (Hijmans 2016); (ii) msm (Jackson 2011); (iii) minpack.lm (Elzhov et al. 2016); (iv) httr (Wickham 2016); and (v) jsonlite (Ooms 2014).
+
+
